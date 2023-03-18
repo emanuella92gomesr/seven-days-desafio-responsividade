@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+@import url('./reset.css');
+@import url('./buttons.css');
+@import url('./medical-appointment.css');
+@import url('./home.css');
+
+body {
+    background: var(--body-background);
+}
+
+strong {
+    color: var(--text-color);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+}

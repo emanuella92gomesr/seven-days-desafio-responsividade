@@ -1,0 +1,27 @@
+/* Defining variables*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: #464646;
+    --light-text: #A3A3A3;
+    --body-background: linear-gradient(165.96deg, #F8F4FF 0%, #EFF0F4 100%);
+    --card-background: #FFF;
+    --primary-color: #4894FF;
+    --secondary-color: #FFB050;
+    --color-white: #FFF;
+    --primary-grey: #ECECEC;
+    --secondary-grey: #F6F6F6;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
