@@ -1,0 +1,57 @@
+section.footernavbar {
+    width: 100%;
+    height: 58px;
+    border-radius: 12px 12px 0 0;
+    background: var(--color-white);
+    filter: drop-shadow(0 -1px 3px #464646);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footernavbar nav {
+    width: 100%;
+}
+
+.footernavbar nav>ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footernavbar nav .footernavbar__action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--light-text);
+    font-size: 12px;
+}
+
+.footernavbar nav .footernavbar__action:first-child {
+    color: var(--primary-color);
+}
+
+.footernavbar nav .footernavbar__action span {
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footernavbar nav .footernavbar__action span.appointments-icon {
+    background-image: url('../assets/icons/Calendar.svg');
+}
+
+.footernavbar nav .footernavbar__action span.clients-icon {
+    background-image: url('../assets/icons/Clientes.svg');
+}
+
+.footernavbar nav .footernavbar__action span.reports-icon {
+    background-image: url('../assets/icons/Relatorios.svg');
+}
+
+.footernavbar nav .footernavbar__action span.menu-icon {
+    opacity: 30%;
+    background-image: url('../assets/icons/Menu.svg');
+}

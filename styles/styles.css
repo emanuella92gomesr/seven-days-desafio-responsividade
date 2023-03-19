@@ -4,6 +4,8 @@
 @import url('./buttons.css');
 @import url('./medical-appointment.css');
 @import url('./home.css');
+@import url('./floating-button.css');
+@import url('./footer.css');
 
 body {
     background: var(--body-background);
